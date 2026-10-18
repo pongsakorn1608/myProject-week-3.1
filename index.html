@@ -1,53 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr. Pongsakorn</title>
+    <title>My Profile v2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <img src="peng.jpeg" alt="peng image"><style>
-        img {
-            width: 500px;
-            height: auto;
-        }
-    </style>    <br />
+    <!-- ใช้ Table จัดเลย์เอาต์ตามโจทย์ -->
+    <table border="0">
+        <tr>
+            <!-- ช่องใส่รูปภาพ -->
+            <td class="profile-img-col">
+                <img src="peng.jpeg" alt="รูปโปรไฟล์" class="profile-img">
+            </td>
+            <!-- ช่องใส่ข้อมูล -->
+            <td>
+                <h1>นายพงศกร แซ่โซ่ง</h1>
+                <p><b>ตำแหน่ง:</b> นักศึกษา</p>
+                <p><b>สาขาวิชา:</b> CAI</p>
+                <p><b>สถาบัน:</b> Panyapiwat Institute of Management</p>
+            </td>
+        </tr>
+    </table>
 
+    <hr class="divider">
 
-    <b>สวัสดีผมชื่อ นายพงศกร แซ่โซ่ง</b> <br />
-    <em>ผมหน้าตาดี</em><br/>
+    <!-- About me -->
+    <h2>About Me</h2>
+    <p>&emsp;&emsp;สวัสดีครับ ผมพงศกร เป็นนักศึกษาสาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ มีความสนใจในการพัฒนาเว็บไซต์ทั้ง Front-end และ Back-end เพื่อสร้างแอปพลิเคชันใช้งานจริงครับ</p>
 
-    <hr style="height:1px; border:none; background-color:#000;" >
+    <!-- Experience -->
+    <h2>Experience</h2>
+    <ul>
+        <li>พนักงานพาร์ทไทม์ Sizzler (มิถุนายน 2025)</li>
+        <li>ฝึกงานโครงการทวิภาคี CP All & 7-Eleven (กุมภาพันธ์ 2026)</li>
+    </ul>
 
-    <ul><li>สาขาวิชา: CAI</li>
-        <li>สถาบัน: Panyapiwat Institute of Management</li>
-        <li>กลุ่มเรียน : Sec 1</li>
-        <li>ปีการศึกษา: 2026</li>
+    <!-- สิ่งที่ชอบทาน -->
+    <h2>สิ่งที่ชอบทาน 3 อย่าง</h2>
+    <ol>
+        <li>สเต็กและสลัดบาร์</li>
+        <li>ชาบู / หมูกระทะ</li>
+        <li>อาหารญี่ปุ่น</li>
+    </ol>
 
-    </ul>     
-    <hr style="height:1px; border:none; background-color:#000;" >
+    <!-- Table 4 Columns สำหรับ Skills และระดับพลัง -->
+    <h2>Skills & Level</h2>
+    <table class="skills-table">
+        <tr>
+            <th>ทักษะ (Skill)</th>
+            <th>ประเภท (Category)</th>
+            <th>ระดับพลัง (Power)</th>
+            <th>ประสบการณ์</th>
+        </tr>
+        <tr>
+            <td>HTML / CSS</td>
+            <td>Front-end</td>
+            <td>80%</td>
+            <td>1 ปี</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Front-end</td>
+            <td>60%</td>
+            <td>1 ปี</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Back-end</td>
+            <td>70%</td>
+            <td>1 ปี</td>
+        </tr>
+        <tr>
+            <td>SQL / PostgreSQL</td>
+            <td>Database</td>
+            <td>65%</td>
+            <td>1 ปี</td>
+        </tr>
+    </table>
 
-    <p><strong>1. เหตุผลที่อยากเรียน Full Stack Web Development</strong></p>
-    <p style="text-align: justify;">&emsp;&emsp;&emsp;ต้องการเข้าใจการพัฒนาเว็บทั้งหน้าบ้าน (Front-end) 
-        และหลังบ้าน (Back-end) เพื่อให้สามารถสร้างแอปพลิเคชันได้ครบวงจรด้วยตัวเอง 
-        และต่อยอดทักษะให้ทันเทคโนโลยีในสายงาน IT</p>
-    <p><strong>2. ความคาดหวังต่อวิชานี้</strong></p>
-    <p style="text-align: justify;">&emsp;&emsp;&emsp;มุ่งหวังที่จะเรียนรู้โครงสร้างระบบการเชื่อมต่อ
-         API และฐานข้อมูล พร้อมทั้งฝึกทำโปรเจกต์จริงเพื่อเพิ่มทักษะการแก้ปัญหาที่นำไปใช้ในการทำงานได้ทันที IT</p>
-    
-    <p><strong>3. จุดอ่อนที่ต้องพัฒนาเกี่ยวกับทักษะ Programming และแนวทางการพัฒนา
-</strong></p>
-    <p style="text-align: justify;"><ul>
-        <li> จุดอ่อน: สับสนเมื่อเจอ Logic ซับซ้อน และใช้เวลานานในการแก้ข้อผิดพลาด (Debug)</li> <br />    
-        <li>แนวทางการพัฒนา: ฝึกทำโปรเจกต์อย่างสม่ำเสมอ ศึกษาเครื่องมือ Debugging เช่น Chrome DevTools และฝึกวิเคราะห์โค้ดอย่างเป็นระบบมุ่งหวังที่จะเรียนรู้โครงสร้างระบบ</li></p></ul>
-    <hr style="height:1px; border:none; background-color:#000;" >
+    <br><br>
 
-    <b>แรงบันดาลใจ:</b><a href="contact.html">คลิกที่นี่</a><br />
-    <b>สถานศึกษา:</b> <a href="http://www.pim.ac.th">Panyapiwat Institute of Management</a><br />
-    <a href="#"> กลับไปด้านบน</a>
+    <!-- Button เข้าสู่หน้า contact.html -->
+    <div style="text-align: center;">
+        <a href="contact.html" class="btn-contact">เข้าสู่หน้าการติดต่อ</a>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <a href="https://github.com" target="_blank">Github Profile</a> | 
+            <a href="contact.html">Contact Us</a>
+        </p>
+    </footer>
 
 </body>
 

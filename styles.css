@@ -1,0 +1,80 @@
+/* การจัดหน้าพื้นฐาน */
+body {
+    background-color: #f4f4f9;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* หัวข้อ */
+h1 {
+    color: #0056b3;
+}
+
+h2 {
+    color: #333333;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* คำตอบ Challenge: ทำให้รูปกับ Text ห่างกันด้วย padding-right */
+.profile-img-col {
+    padding-right: 30px;
+}
+
+/* รูปโปรไฟล์วงกลม */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* เส้นแบ่ง */
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* การจัดตาราง Skills */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.skills-table th {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* ปุ่มกดง่ายๆ */
+.btn-contact {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-contact:hover {
+    background-color: #003d80;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+}
